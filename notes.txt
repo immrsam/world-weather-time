@@ -1,0 +1,13 @@
+npm create vite@latest
+
+npm i react-accessible-accordion
+npm i react-select-async-paginate --force
+
+npm i axios
+
+https://rapidapi.com/wirefreethought/api/geodb-cities/
+https://openweathermap.org/
+https://open-meteo.com/en/docs
+
+// - city search based on this tutorial
+https://www.youtube.com/watch?v=Reny0cTTv24&t=426s&ab_channel=freeCodeCamp.org
