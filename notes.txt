@@ -11,3 +11,7 @@ https://open-meteo.com/en/docs
 
 // - city search based on this tutorial
 https://www.youtube.com/watch?v=Reny0cTTv24&t=426s&ab_channel=freeCodeCamp.org
+
+
+https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&daily=weathercode,temperature_2m_max,temperature_2m_min,sunrise,sunset,precipitation_sum,rain_sum,showers_sum,snowfall_sum&timezone=auto
+
