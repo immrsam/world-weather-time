@@ -18,7 +18,14 @@ function App() {
       setCurrentWeather({ weatherResponse });
     });
   };
-  if (currentWeather !== null) console.log(currentWeather.weatherResponse.timezone);
+  if (currentWeather !== null) console.log(currentWeather.weatherResponse);
+  if (currentWeather !== null) console.log(currentWeather.weatherResponse.daily);
+  if (currentWeather !== null) console.log(currentWeather.weatherResponse.daily.sunrise[0]);
+  if (currentWeather !== null) console.log(currentWeather.weatherResponse.daily.sunset[0]);
+  // if (currentWeather !== null) console.log(currentWeather.weatherResponse);
+  // if (currentWeather !== null) console.log(currentWeather.weatherResponse);
+  // if (currentWeather !== null) console.log(currentWeather.weatherResponse);
+  // if (currentWeather !== null) console.log(currentWeather.weatherResponse);
 
   return (
     <div className="container">
